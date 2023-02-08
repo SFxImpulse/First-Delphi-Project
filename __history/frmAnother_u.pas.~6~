@@ -1,0 +1,31 @@
+unit frmAnother_u;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls;
+
+type
+  TfrmAnother = class(TForm)
+    btnShowMain: TButton;
+    procedure btnShowMainClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmAnother: TfrmAnother;
+
+implementation
+
+{$R *.dfm}
+
+procedure TfrmAnother.btnShowMainClick(Sender: TObject);
+begin
+//  frmMain_u.Show;
+end;
+
+end.
